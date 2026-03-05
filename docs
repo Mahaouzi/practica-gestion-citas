@@ -1,0 +1,25 @@
+from dataclasses import dataclass
+from datetime import datetime
+from typing import List
+
+
+@dataclass
+class Paciente:
+    nombre: str
+    dni: str
+    telefono: str
+
+
+@dataclass
+class Cita:
+    paciente: Paciente
+    fecha_hora: datetime
+    motivo: str
+
+
+class GestorCitas:
+    def __init__(self) -> None:
+        self.citas: List[Cita] = []
+
+    def crear_cita(self, paciente: Paciente, fecha_hora: datetime, motivo: str) -> Cita:
+        nueva
