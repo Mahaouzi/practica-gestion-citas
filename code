@@ -1,0 +1,12 @@
+**Título:** Sistema de gestión de citas médicas
+
+**Descripción:**
+Desarrollar funcionalidad para crear y gestionar citas médicas.
+
+**Tareas:**
+- [ ] Calendario de citas
+- [ ] Validación de horarios disponibles
+- [ ] Notificaciones al paciente
+
+**Estimación:** 5 horas
+**Prioridad:** Alta
