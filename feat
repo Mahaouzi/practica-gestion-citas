@@ -1,0 +1,19 @@
+class Cita {
+  constructor(id, pacienteId, medicoId, fecha, estado) {
+    this.id = id;
+    this.pacienteId = pacienteId;
+    this.medicoId = medicoId;
+    this.fecha = fecha;
+    this.estado = estado; // pendiente, confirmada, cancelada
+  }
+
+  cancelar() {
+    this.estado = "cancelada";
+  }
+
+  confirmar() {
+    this.estado = "confirmada";
+  }
+}
+
+module.exports = Cita;
