@@ -1,0 +1,5 @@
+function comprobarDisponibilidad(citas, medicoId, fecha) {
+  return !citas.some(
+    cita => cita.medicoId === medicoId && cita.fecha === fecha
+  );
+}
