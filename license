@@ -1,0 +1,12 @@
+**Título:** Implementar base de datos de pacientes
+
+**Descripción:**
+Configurar la estructura de la base de datos para almacenar información de pacientes.
+
+**Tareas:**
+- [ ] Crear tabla pacientes
+- [ ] Definir relaciones
+- [ ] Implementar consultas básicas
+
+**Estimación:** 6 horas
+**Prioridad:** Media
